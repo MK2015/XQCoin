@@ -1,23 +1,23 @@
 XQCoin is a mixed POW/POS cryptocurrency which will be POW for the initial 7 days and pure POS after that.
 
-Website: http://www.XQC-coin.com
-Launch Date: 22/04/2014 @ 12:00 GMT
-
+Website: 
+Launch Date: 28/12/2014 
 
 General Specs:
 
 Algorithm: Scrypt POW/POS 
-Block Time: 20 seconds
-Total Coin: 1,000,000,000 XQC
-Premine: 0.5% for Dev support, future development and marketing
+Block Time: 60 seconds
+Total POW Coin: 9600,000 XQC
 Mined Block Confirmation: 50
 Transaction Confirmation: 3
-Port: 16789
-Rpc port: 16889 
+Port: 17869
+Rpc port: 17879
 
 Block Rewards:
 
-Day 1 (POW): Blocks 1-4320 - 1000 XQC 
-Day 2-7 (POW): Blocks 4321-30240 - 4,000 XQC
-Day 8-17 (POS): Nominal Stake Interest: 10% Daily
-Day 18- (POS): Nominal Stake Interest: 3.65% Annually
+Day 1 (POW): Blocks 9600,000 XQC 
+ 
+1 year (POS): Stake Interest: 10% Daily
+2 year (POS): Stake Interest: 5% Daily
+3 year (POS): Stake Interest: 2% Daily
+4 year (POS): Stake Interest: 1% Daily
