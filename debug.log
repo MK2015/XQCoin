@@ -1,0 +1,995 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+XQCoin version v1.0.0.3 ($Format:%cD)
+Using OpenSSL version OpenSSL 1.0.1e 11 Feb 2013
+Startup time: 06/18/14 12:46:22
+Default data directory C:\Documents and Settings\Administrator\Application Data\XQCoin
+Used data directory C:\Documents and Settings\Administrator\Application Data\XQCoin
+dbenv.open LogDir=C:\Documents and Settings\Administrator\Application Data\XQCoin\database ErrorFile=C:\Documents and Settings\Administrator\Application Data\XQCoin\db.log
+Error: Couldn't open socket for incoming connections (socket returned error 10047)
+Bound to 0.0.0.0:15566
+Loading block index...
+CBlock(hash=c915d694ccec636f3b7f4c74926271dcae0c84657874477019dc377ba609f24b, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=5aeee951788eb7c2411174c36d59c10f00dae4179ced2ba5663eabc40ce27922, nTime=1402999570, nBits=1e0fffff, nNonce=68686868, vtx=1, vchBlockSig=)
+  Coinbase(hash=5aeee95178, nTime=1402999570, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000, 4294967295), coinbase 04ffff001d020f27155947435820544f204d4f4f4e20616e642053554e2e)
+    CTxOut(empty)
+  vMerkleTree: 5aeee95178 
+block.GetHash() == c915d694ccec636f3b7f4c74926271dcae0c84657874477019dc377ba609f24b
+block.hashMerkleRoot == 5aeee951788eb7c2411174c36d59c10f00dae4179ced2ba5663eabc40ce27922
+block.nTime = 1402999570 
+block.nNonce = 68686868 
+SetBestChain: new best=c915d694ccec636f3b7f4c74926271dcae0c84657874477019dc377ba609f24b  height=0  trust=1  date=06/17/14 10:06:10
+Stake checkpoint: e00670b
+ResetSyncCheckpoint: sync-checkpoint reset to c915d694ccec636f3b7f4c74926271dcae0c84657874477019dc377ba609f24b
+ block index             375ms
+Loading wallet...
+nFileVersion = 70200
+ wallet                   94ms
+Loading addresses...
+ERROR: CAddrman::Read() : open failed
+Invalid or missing peers.dat; recreating
+Loaded 0 addresses from peers.dat  0ms
+RandAddSeed() 130552 bytes
+mapBlockIndex.size() = 1
+nBestHeight = 0
+setKeyPool.size() = 101
+mapWallet.size() = 0
+mapAddressBook.size() = 1
+ThreadRPCServer started
+send version message: version 60006, blocks=0, us=0.0.0.0:0, them=0.0.0.0:0, peer=127.0.0.1:0
+Done loading
+refreshWallet
+DNS seeding disabled
+ThreadSocketHandler started
+ThreadOpenConnections started
+ThreadMapPort started
+ThreadOpenAddedConnections started
+trying connection 211.149.193.216:15566 lastseen=361971.0hrs
+ThreadStakeMinter started
+ThreadMessageHandler started
+CPUMiner started for proof-of-stake
+Flushed 0 addresses to peers.dat  47ms
+ipcThread started
+connected 211.149.193.216:15566
+send version message: version 60006, blocks=0, us=0.0.0.0:0, them=211.149.193.216:15566, peer=211.149.193.216:15566
+Added time data, samples 2, offset +95 (+1 minutes)
+receive version message: version 60006, blocks=195, us=115.155.1.117:54337, them=211.149.193.216:15566, peer=211.149.193.216:15566
+trying connection 211.149.195.113:15566 lastseen=361971.0hrs
+connected 211.149.195.113:15566
+send version message: version 60006, blocks=0, us=0.0.0.0:0, them=211.149.195.113:15566, peer=211.149.195.113:15566
+received block 000004bc159afe2088e7
+SetBestChain: new best=000004bc159afe2088e7e0e5010516d8c8c2e77d431ec3eae6972266b8bf3462  height=1  trust=2  date=2014-6-18 06:25:06
+Stake checkpoint: 5189c78a
+ProcessBlock: ACCEPTED
+received block 00000803b3f387ae1d92
+SetBestChain: new best=00000803b3f387ae1d9254320369a0381e57c3a902e4b4f0916f5fd1f8c23dd3  height=2  trust=3  date=2014-6-18 06:26:47
+Stake checkpoint: 38d937d2
+ProcessBlock: ACCEPTED
+received block 00000282a4a2f7bbd04b
+SetBestChain: new best=00000282a4a2f7bbd04b0307007bbfec04c570196e3d5eabe9db3ebcfef374b1  height=3  trust=4  date=2014-6-18 06:29:59
+Stake checkpoint: a10dc5fd
+ProcessBlock: ACCEPTED
+received block 000006970979ea42ac00
+SetBestChain: new best=000006970979ea42ac00f208137fdafdf15c78813bf4623ac72729ee87f319f7  height=4  trust=5  date=2014-6-18 06:32:24
+Stake checkpoint: 49b5818c
+ProcessBlock: ACCEPTED
+received block 00000533740472ed30ec
+SetBestChain: new best=00000533740472ed30ecfbc80483d6e3f2725cf0d5500750e087d5b433f0a9b5  height=5  trust=6  date=2014-6-18 06:37:08
+Stake checkpoint: eb24fa50
+ProcessBlock: ACCEPTED
+received block 00000bc18e7355365218
+SetBestChain: new best=00000bc18e735536521873ba546bfd9292df139ee6ee436e335af940ce454ab3  height=6  trust=7  date=2014-6-18 06:37:53
+Stake checkpoint: 532896aa
+ProcessBlock: ACCEPTED
+received block 000002257e43171a9742
+SetBestChain: new best=000002257e43171a9742dd0633121f1bc3e1db17b95455b5fad6563ec72ec369  height=7  trust=8  date=2014-6-18 06:38:18
+Stake checkpoint: 2c56dfbc
+ProcessBlock: ACCEPTED
+received block 0000053803d963026dda
+UPnP: ExternalIPAddress = 10.169.249.164
+UPnP Port Mapping successful.
+SetBestChain: new best=0000053803d963026dda21ea8b62bbe003c746b7b0dad8390109664f83399c78  height=8  trust=9  date=2014-6-18 06:42:03
+Stake checkpoint: 94d163d2
+ProcessBlock: ACCEPTED
+received block 000005c0345d899812b9
+SetBestChain: new best=000005c0345d899812b9fe9ab08b86d1327a69e5c11e4a0b05e45dd2881886b4  height=9  trust=10  date=2014-6-18 06:43:57
+Stake checkpoint: 91db947
+ProcessBlock: ACCEPTED
+received block 00000d6d99beb1c0d2b8
+SetBestChain: new best=00000d6d99beb1c0d2b8a3dd9a50ce3d1f78241c74a1810353019458bedb178f  height=10  trust=11  date=2014-6-18 06:48:59
+Stake checkpoint: 4db992ea
+ProcessBlock: ACCEPTED
+Added time data, samples 3, offset +94 (+1 minutes)
+receive version message: version 60006, blocks=195, us=115.155.1.117:54338, them=211.149.195.113:15566, peer=211.149.195.113:15566
+received block 000002249d55de1a7751
+SetBestChain: new best=000002249d55de1a7751b444ffc0fa3edb3adc672319ba2b62d3cdf48245617f  height=11  trust=12  date=2014-6-18 06:49:46
+Stake checkpoint: 5a111d53
+ProcessBlock: ACCEPTED
+received block 00000407cfe6be0a2097
+SetBestChain: new best=00000407cfe6be0a2097c24b55a8a1d7d018fc6e0a5873d53bb0f08fbfcaa27f  height=12  trust=13  date=2014-6-18 06:51:32
+Stake checkpoint: a2e2772c
+ProcessBlock: ACCEPTED
+received block 00000fb542d65a944c10
+SetBestChain: new best=00000fb542d65a944c102720d79b865f802855fe5a567c44eb87ab0cc9160f96  height=13  trust=14  date=2014-6-18 06:53:07
+Stake checkpoint: 8d7214c5
+ProcessBlock: ACCEPTED
+received block 00000845c90c91b9a514
+SetBestChain: new best=00000845c90c91b9a514d696d9d0df825a1f938f72159944c2c2d34937cf800c  height=14  trust=15  date=2014-6-18 06:54:33
+Stake checkpoint: 4a5fab48
+ProcessBlock: ACCEPTED
+received block 000001c49e5f1b22dfa7
+SetBestChain: new best=000001c49e5f1b22dfa7e616cf9da08242331b06f2360adbe1b36a93a367722b  height=15  trust=16  date=2014-6-18 06:56:22
+Stake checkpoint: 13352d2c
+ProcessBlock: ACCEPTED
+received block 0000071deba042dc1aca
+SetBestChain: new best=0000071deba042dc1aca2ca9107a76d4117f1ca394916c942b7626308b089c25  height=16  trust=17  date=2014-6-18 06:57:43
+Stake checkpoint: 55d24e2
+ProcessBlock: ACCEPTED
+received block 00000d74cab77cc203c7
+SetBestChain: new best=00000d74cab77cc203c762271c41ab717ec908b869a1fb7ac70d7d4ad1c22c53  height=17  trust=18  date=2014-6-18 06:57:51
+Stake checkpoint: 1dd7c4de
+ProcessBlock: ACCEPTED
+received block 00000e81ec39c3925cce
+SetBestChain: new best=00000e81ec39c3925cce14e5d7ff8664b4dec687fe051ec735dfa279ecac746a  height=18  trust=19  date=2014-6-18 07:01:25
+Stake checkpoint: 86b738bb
+ProcessBlock: ACCEPTED
+received block 0000012fc8bf6f318b45
+recv failed: 10054
+ERROR: GetMyExternalIP() : connection closed
+SetBestChain: new best=0000012fc8bf6f318b45f7226ebedc1ecbe31f6210063ce09a407d4e6d13790e  height=19  trust=20  date=2014-6-18 07:02:41
+Stake checkpoint: 743781ef
+ProcessBlock: ACCEPTED
+received block 000005a269437d57965b
+SetBestChain: new best=000005a269437d57965bc30be2bfe63fe153744af724c9bd3a37634f694c0b6c  height=20  trust=21  date=2014-6-18 07:05:18
+Stake checkpoint: edd5e6a6
+ProcessBlock: ACCEPTED
+received block 00000ca6ea5a1f4bc392
+SetBestChain: new best=00000ca6ea5a1f4bc3921cc4365ddb767e9e3ba14816a981b8d9363fae290bdf  height=21  trust=22  date=2014-6-18 07:05:37
+Stake checkpoint: 67c2ada3
+ProcessBlock: ACCEPTED
+received block 00000db168e6ba418176
+SetBestChain: new best=00000db168e6ba41817666f86ddeb485beefae3257e6ca1df4a170657333fb9b  height=22  trust=23  date=2014-6-18 07:06:12
+Stake checkpoint: 3aa271f6
+ProcessBlock: ACCEPTED
+received block 000009da07013256cbe2
+SetBestChain: new best=000009da07013256cbe23ad636a9a83bb6e22a5594f14a8b6a53e1d8973be6d4  height=23  trust=24  date=2014-6-18 07:06:42
+Stake checkpoint: 97fa0625
+ProcessBlock: ACCEPTED
+received block 00000798f1873ae6daab
+SetBestChain: new best=00000798f1873ae6daabf7b337dca40405125a83e76e63502ca0c9cb55dcb6b7  height=24  trust=25  date=2014-6-18 07:11:14
+Stake checkpoint: d51c7b9
+ProcessBlock: ACCEPTED
+received block 000008e675373c4518de
+SetBestChain: new best=000008e675373c4518de0ba440851ffddf3b10170f49bb309c5f1b60c69faedc  height=25  trust=26  date=2014-6-18 07:12:42
+Stake checkpoint: d5f6bac0
+ProcessBlock: ACCEPTED
+received block 00000415a48eb04b88b6
+SetBestChain: new best=00000415a48eb04b88b68bafec7c0204741c6f1b336982a713d3727051f71259  height=26  trust=27  date=2014-6-18 07:15:44
+Stake checkpoint: 6fa677b
+ProcessBlock: ACCEPTED
+received block 000001abdc36ac74c672
+SetBestChain: new best=000001abdc36ac74c67264ad532ef2d2daa25284265810a82d5faba7ae06f733  height=27  trust=28  date=2014-6-18 07:15:25
+Stake checkpoint: fbbb3326
+ProcessBlock: ACCEPTED
+received block 0000072657360f95c6b9
+SetBestChain: new best=0000072657360f95c6b940bd097f6ba732b760633ab4799d2bd4e34739e518ed  height=28  trust=29  date=2014-6-18 07:17:29
+Stake checkpoint: ed788a3f
+ProcessBlock: ACCEPTED
+received block 00000c54d976ae9bb581
+SetBestChain: new best=00000c54d976ae9bb581f7e9a1bbe4cff1c2137a523884ec49843d7826b5ff2c  height=29  trust=30  date=2014-6-18 07:17:13
+Stake checkpoint: efced923
+ProcessBlock: ACCEPTED
+received block 000004376c29f645fd6b
+SetBestChain: new best=000004376c29f645fd6b17548c5ccbadbc3012c0b7c392e04c19df70ae89d687  height=30  trust=31  date=2014-6-18 07:17:33
+Stake checkpoint: 4c89d983
+ProcessBlock: ACCEPTED
+received block 000008aada2aab464662
+SetBestChain: new best=000008aada2aab46466258d1dbf5b9d6c79bad5367b90e75945a207bf7f4b882  height=31  trust=32  date=2014-6-18 07:18:34
+Stake checkpoint: e78e56dd
+ProcessBlock: ACCEPTED
+received block 00000184056ca71600c4
+SetBestChain: new best=00000184056ca71600c4e2369ec2fea0647e2697eafc7ade563d34771d82d122  height=32  trust=33  date=2014-6-18 07:19:12
+Stake checkpoint: c55846b4
+ProcessBlock: ACCEPTED
+received block 00000af70ec478c25cd4
+SetBestChain: new best=00000af70ec478c25cd43cbcd822b0b67df2f21d7ab7d25203916670055e2f8f  height=33  trust=34  date=2014-6-18 07:19:53
+Stake checkpoint: 4f227101
+ProcessBlock: ACCEPTED
+received block 000006ae5818b638b011
+SetBestChain: new best=000006ae5818b638b011cf58c290750f97eb221c881bd29134d0f269c0629607  height=34  trust=35  date=2014-6-18 07:21:01
+Stake checkpoint: be109fab
+ProcessBlock: ACCEPTED
+received block 000003965deb4160f91e
+SetBestChain: new best=000003965deb4160f91e809cbf4be1bdd4130f964864e54a085d7b674a095e3d  height=35  trust=36  date=2014-6-18 07:21:54
+Stake checkpoint: 4eb3b1ff
+ProcessBlock: ACCEPTED
+received block 00000d4080aface66212
+SetBestChain: new best=00000d4080aface66212bad56290fbc88d8d3c5177ac56dcc46abdf01fa73ed7  height=36  trust=37  date=2014-6-18 07:25:01
+Stake checkpoint: 9a164621
+ProcessBlock: ACCEPTED
+received block 00000b53752454a3f1fb
+SetBestChain: new best=00000b53752454a3f1fb8e288575980d210e2cafbee2e7fe21fc8ee39d12cdf0  height=37  trust=38  date=2014-6-18 07:25:24
+Stake checkpoint: 44e0af74
+ProcessBlock: ACCEPTED
+received block 00000aad8b7b7f2d2472
+SetBestChain: new best=00000aad8b7b7f2d24723815e639e787f776551b52c8e48dce8d25cc1cb30cc3  height=38  trust=39  date=2014-6-18 07:26:21
+Stake checkpoint: a4d3e02a
+ProcessBlock: ACCEPTED
+received block 000009edd950088239e0
+SetBestChain: new best=000009edd950088239e06c50227111b178401e760cc2650139639220fc45c30c  height=39  trust=40  date=2014-6-18 07:27:31
+Stake checkpoint: 3d5de230
+ProcessBlock: ACCEPTED
+received block 00000469ab6463e02572
+SetBestChain: new best=00000469ab6463e02572a91685c8f4d8e3a1f7ae07db80470c7e8aeb93baa4f4  height=40  trust=41  date=2014-6-18 07:27:24
+Stake checkpoint: f4c6a4fe
+ProcessBlock: ACCEPTED
+received block 000007305a98f312c22d
+SetBestChain: new best=000007305a98f312c22da48f300846f79c9e62a6203fb497b16be329c153af68  height=41  trust=42  date=2014-6-18 07:30:01
+Stake checkpoint: bd43d0b1
+ProcessBlock: ACCEPTED
+received block 00000d244542544fdf50
+SetBestChain: new best=00000d244542544fdf509ab7870334d68f1c26635d2cc5b811bb7e796481b242  height=42  trust=43  date=2014-6-18 07:30:16
+Stake checkpoint: 5e08366f
+ProcessBlock: ACCEPTED
+received block 000000a47442722e390f
+SetBestChain: new best=000000a47442722e390fe136dcd0507ecfdd3d1c10e86929681072b10f2e1c11  height=43  trust=44  date=2014-6-18 07:31:21
+Stake checkpoint: eb8cacda
+ProcessBlock: ACCEPTED
+received block 0000037b615914eb2877
+SetBestChain: new best=0000037b615914eb2877b04d959d484cff61610109e1f2686dfb8e99b756a5f3  height=44  trust=45  date=2014-6-18 07:32:02
+Stake checkpoint: 16b41ee1
+ProcessBlock: ACCEPTED
+received block 0000096dd67e18c65efe
+SetBestChain: new best=0000096dd67e18c65efee02cb34e11f0aef74d3ff2b8be34e02e0901d6ffb69a  height=45  trust=46  date=2014-6-18 07:39:41
+Stake checkpoint: 7e94e807
+ProcessBlock: ACCEPTED
+received block 000002063f19bd4f62f4
+SetBestChain: new best=000002063f19bd4f62f434b5eccc831c4aeb0f2f8030bf00b2377dbf7280dd56  height=46  trust=47  date=2014-6-18 07:40:10
+Stake checkpoint: 913595d2
+ProcessBlock: ACCEPTED
+received block 00000b44c01ba5136fb4
+SetBestChain: new best=00000b44c01ba5136fb4731ed5ea18344e63e9c3a997025b05db0a9e945b965a  height=47  trust=48  date=2014-6-18 07:40:48
+Stake checkpoint: b1b437d1
+ProcessBlock: ACCEPTED
+received block 0000032b239d08a2ffe5
+SetBestChain: new best=0000032b239d08a2ffe54ccfa1e943895cbe941eac0954dedbb8731c6e5508fb  height=48  trust=49  date=2014-6-18 07:43:32
+Stake checkpoint: 6f11210d
+ProcessBlock: ACCEPTED
+received block 000004dd3fb32e22dc75
+SetBestChain: new best=000004dd3fb32e22dc751b28fbf86c46f8d6795f97092b7d99acf25bb8a76626  height=49  trust=50  date=2014-6-18 07:45:29
+Stake checkpoint: c78e97be
+ProcessBlock: ACCEPTED
+received block 0000075af0d1a504d2f8
+SetBestChain: new best=0000075af0d1a504d2f82138767970d255af80b0b386535cc3b08049e6f8d1b5  height=50  trust=51  date=2014-6-18 07:48:22
+Stake checkpoint: 8e867039
+ProcessBlock: ACCEPTED
+received block 000008de43ac145f8f13
+SetBestChain: new best=000008de43ac145f8f13ccbe4f541b9234e3b310cf737115e213239ee3120195  height=51  trust=52  date=2014-6-18 07:49:55
+Stake checkpoint: f977cdaf
+ProcessBlock: ACCEPTED
+received block 000002d75bd396115e16
+SetBestChain: new best=000002d75bd396115e1611589e7e0fa3e5b35703b59211867d4febec65ebf791  height=52  trust=53  date=2014-6-18 07:51:48
+Stake checkpoint: 28a9e024
+ProcessBlock: ACCEPTED
+received block 000003514c52ba9d7029
+connection timeout
+ERROR: GetMyExternalIP() : connection to 74.208.43.192:80 failed
+SetBestChain: new best=000003514c52ba9d702989f76594c43a7cdb010ad3f06ad9200de7e9ab41c7e1  height=53  trust=54  date=2014-6-18 07:53:23
+Stake checkpoint: 43f0c556
+ProcessBlock: ACCEPTED
+received block 000002ab7c748501f5a2
+SetBestChain: new best=000002ab7c748501f5a2c71d16c4412b194ee022423d331d7f7d7f44f10f6090  height=54  trust=55  date=2014-6-18 07:59:13
+Stake checkpoint: 184d600f
+ProcessBlock: ACCEPTED
+received block 000005a6c3413e4b64ba
+SetBestChain: new best=000005a6c3413e4b64baf6655813ee64c20e763746a53a9819aa07ab598e4a0b  height=55  trust=56  date=2014-6-18 07:59:29
+Stake checkpoint: 31ea770f
+ProcessBlock: ACCEPTED
+received block 00000607ce78e42a0062
+SetBestChain: new best=00000607ce78e42a0062e99c3140e54539e80b956ecd315f30fe3b7130d54843  height=56  trust=57  date=2014-6-18 08:01:07
+Stake checkpoint: f5016350
+ProcessBlock: ACCEPTED
+received block 00000d27273a9b6e99ab
+SetBestChain: new best=00000d27273a9b6e99abb7075cbf50e0f6f9a89f788672328ec0d54b02e43de2  height=57  trust=58  date=2014-6-18 08:02:00
+Stake checkpoint: 1b384804
+ProcessBlock: ACCEPTED
+received block 000001ec77a536619416
+SetBestChain: new best=000001ec77a536619416efeb53b3e58c2a091706e01cd28acb02396ec3781d6d  height=58  trust=59  date=2014-6-18 08:03:32
+Stake checkpoint: dbc292f5
+ProcessBlock: ACCEPTED
+received block 000006ed4c84af42fe54
+SetBestChain: new best=000006ed4c84af42fe54f90db7126fafe1897f159a7cfffad6b510d56da1a7d7  height=59  trust=60  date=2014-6-18 08:07:42
+Stake checkpoint: 6ad61e02
+ProcessBlock: ACCEPTED
+received block 00000ef1ee4477da3d40
+SetBestChain: new best=00000ef1ee4477da3d40eaa2ed323425e2ad384c7b0c5d04643aa4a10de89939  height=60  trust=61  date=2014-6-18 08:09:03
+Stake checkpoint: 23e7bbbe
+ProcessBlock: ACCEPTED
+received block 00000573f40cb91785dc
+SetBestChain: new best=00000573f40cb91785dc4db20e9000768f89fb4484ae6d374a87d4893b4d7626  height=61  trust=62  date=2014-6-18 08:09:49
+Stake checkpoint: 4a8bc528
+ProcessBlock: ACCEPTED
+received block 00000559647dd89da854
+SetBestChain: new best=00000559647dd89da854329bd58f7dfac412d812e3edfdb7ffdc13004280ffc4  height=62  trust=63  date=2014-6-18 08:11:56
+Stake checkpoint: f658ba65
+ProcessBlock: ACCEPTED
+received block 00000cd64db099f93a0f
+SetBestChain: new best=00000cd64db099f93a0f119c58c8f2e9c8400828f82cb715ba7da3be0aa5752e  height=63  trust=64  date=2014-6-18 08:13:46
+Stake checkpoint: c3755c73
+ProcessBlock: ACCEPTED
+received block 00000fc114ac24b592a5
+SetBestChain: new best=00000fc114ac24b592a5caec1830b9c45fd25a0eb431afcd72681220b6f370c8  height=64  trust=65  date=2014-6-18 08:17:37
+Stake checkpoint: a07dfdc7
+ProcessBlock: ACCEPTED
+received block 00000d377d6010f18078
+SetBestChain: new best=00000d377d6010f18078b8e01d69d374c6f2aa2308b409fabadb7c561c782332  height=65  trust=66  date=2014-6-18 08:19:00
+Stake checkpoint: 4ae52f40
+ProcessBlock: ACCEPTED
+received block 000001399c72ca24744f
+SetBestChain: new best=000001399c72ca24744f113aef1521a2fed9d69703bfae3723f61f86750ab773  height=66  trust=67  date=2014-6-18 08:22:21
+Stake checkpoint: a8df44ec
+ProcessBlock: ACCEPTED
+received block 00000d66b88e71d08096
+SetBestChain: new best=00000d66b88e71d08096e435328a47f7095a5afe508e036355b33276a683362b  height=67  trust=68  date=2014-6-18 08:25:04
+Stake checkpoint: 3a78a4e7
+ProcessBlock: ACCEPTED
+received block 000004a85fa043afed65
+SetBestChain: new best=000004a85fa043afed65d6337c5a516474cc254dfd4afe70e3a7d0ef182bf0ba  height=68  trust=69  date=2014-6-18 08:35:10
+Stake checkpoint: 46e3b7a5
+ProcessBlock: ACCEPTED
+received block 000004f9474227e41710
+SetBestChain: new best=000004f9474227e41710977665fd18f2e7ce00e6c14330966f2369af6c6939a8  height=69  trust=70  date=2014-6-18 08:41:12
+Stake checkpoint: e99797b5
+ProcessBlock: ACCEPTED
+received block 0000098c392498efaf9b
+SetBestChain: new best=0000098c392498efaf9be9c21594b62dd6029220e6d0cf6464784f2e694c807e  height=70  trust=71  date=2014-6-18 08:42:24
+Stake checkpoint: 2b5097e7
+ProcessBlock: ACCEPTED
+received block 000003f020529033dd2b
+SetBestChain: new best=000003f020529033dd2b19eeb4b13bc006707abe060508030a1ead1d655c40fc  height=71  trust=72  date=2014-6-18 08:48:19
+Stake checkpoint: 99079d0b
+ProcessBlock: ACCEPTED
+received block 00000e2a72f9598aab76
+SetBestChain: new best=00000e2a72f9598aab76233fe8199763ec7c0b298284ccc2a3b2e2c6ca741b54  height=72  trust=73  date=2014-6-18 08:49:44
+Stake checkpoint: 60f2234a
+ProcessBlock: ACCEPTED
+received block 00000334a17a8a1c62ec
+SetBestChain: new best=00000334a17a8a1c62ec35906f27c20153ee0566976c5c62df3c10547c65ef5c  height=73  trust=74  date=2014-6-18 08:49:35
+Stake checkpoint: 7ad9c31d
+ProcessBlock: ACCEPTED
+received block 000000b3c319ecd7864b
+SetBestChain: new best=000000b3c319ecd7864bf4763dd48312da8d61940b37a326ea15c0d3dccb5ecd  height=74  trust=75  date=2014-6-18 08:49:45
+Stake checkpoint: 53eb1369
+ProcessBlock: ACCEPTED
+received block 00000d58e14d43304a94
+SetBestChain: new best=00000d58e14d43304a947b3b2822190ad43727ef624556c54a80dc39b5b4d5e9  height=75  trust=76  date=2014-6-18 08:51:09
+Stake checkpoint: 3bfcd0f5
+ProcessBlock: ACCEPTED
+received block 00000935b8b881823741
+SetBestChain: new best=00000935b8b8818237417559e48661f3724b627fb6645a74957f689327be7522  height=76  trust=77  date=2014-6-18 08:55:38
+Stake checkpoint: 2857db4e
+ProcessBlock: ACCEPTED
+received block 00000cc9a5fa7559ee09
+SetBestChain: new best=00000cc9a5fa7559ee09d52f6722f0a635893af7ff6c00862673f8b876845006  height=77  trust=78  date=2014-6-18 08:58:19
+Stake checkpoint: f7e24955
+ProcessBlock: ACCEPTED
+received block 00000f52027a713aca7b
+SetBestChain: new best=00000f52027a713aca7b9e02de68da8040e1ab95584756c2b3f18cb80af9b267  height=78  trust=79  date=2014-6-18 08:59:03
+Stake checkpoint: 217eb6a8
+ProcessBlock: ACCEPTED
+received block 00000181672ca42572a7
+SetBestChain: new best=00000181672ca42572a7952fb4005f86f6da1af5d89b8a2cd26124a960744cc9  height=79  trust=80  date=2014-6-18 09:00:00
+Stake checkpoint: b901a0c1
+ProcessBlock: ACCEPTED
+received block 00000a08e2d9816efeaa
+SetBestChain: new best=00000a08e2d9816efeaa29a68efe912df66632050da5051a409722bbeeca9ea4  height=80  trust=81  date=2014-6-18 09:02:28
+Stake checkpoint: 2c408ad2
+ProcessBlock: ACCEPTED
+received block 0000078a416cdb953da5
+SetBestChain: new best=0000078a416cdb953da501dc0754ac9317899130e62eabb73bed1d90b3414447  height=81  trust=82  date=2014-6-18 09:02:41
+Stake checkpoint: 9efafb1e
+ProcessBlock: ACCEPTED
+received block 000006002e4f02d3a35f
+SetBestChain: new best=000006002e4f02d3a35f56c70a1bfcdaa62aef06e4055319c6af9d709acbb910  height=82  trust=83  date=2014-6-18 09:06:05
+Stake checkpoint: 207cc39d
+ProcessBlock: ACCEPTED
+received block 00000beaec748af0aac2
+SetBestChain: new best=00000beaec748af0aac230c834983fac73ce8f302b9143401d2660593b113779  height=83  trust=84  date=2014-6-18 09:08:06
+Stake checkpoint: f8493564
+ProcessBlock: ACCEPTED
+received block 000009f9b8007a833cfc
+SetBestChain: new best=000009f9b8007a833cfcac44d673d85eff95e11a8ac3b3b537b7887d942f7b58  height=84  trust=85  date=2014-6-18 09:09:59
+Stake checkpoint: e4745047
+ProcessBlock: ACCEPTED
+received block 00000f9aeceffa78c815
+SetBestChain: new best=00000f9aeceffa78c8159ad14e22152c7f649efd5507e2dd9c72c6d2bed97ac1  height=85  trust=86  date=2014-6-18 09:12:43
+Stake checkpoint: ca0e9163
+ProcessBlock: ACCEPTED
+received block 000007b954a2b6212098
+SetBestChain: new best=000007b954a2b62120981d31bbe433b79c0cae48e68f46e0f9a7856a1f077c3f  height=86  trust=87  date=2014-6-18 09:13:01
+Stake checkpoint: db6df928
+ProcessBlock: ACCEPTED
+received block 0000044f603c8e8e48ba
+SetBestChain: new best=0000044f603c8e8e48ba973c179d3df8d4e36837aec9ddb7b283a414fdb50a27  height=87  trust=88  date=2014-6-18 09:13:11
+Stake checkpoint: f632f0f1
+ProcessBlock: ACCEPTED
+received block 000005d26691762ed8b1
+SetBestChain: new best=000005d26691762ed8b1cf6178f0b51220ec2f24a52746db14054929aca0b903  height=88  trust=89  date=2014-6-18 09:14:55
+Stake checkpoint: fb11a4ac
+ProcessBlock: ACCEPTED
+received block 000006e7d03c99fb3bfc
+SetBestChain: new best=000006e7d03c99fb3bfc9583ac219bff88893650739dcd0a1f4ac80c2ef895a2  height=89  trust=90  date=2014-6-18 09:16:24
+Stake checkpoint: 3adca43d
+ProcessBlock: ACCEPTED
+received block 00000f7efb1671fc6d11
+connection timeout
+ERROR: GetMyExternalIP() : connection to 216.146.43.70:80 failed
+SetBestChain: new best=00000f7efb1671fc6d11e667b59c40675a42b25c96d28fe7177c4720c73e9cf2  height=90  trust=91  date=2014-6-18 09:21:08
+Stake checkpoint: adb3f6f1
+ProcessBlock: ACCEPTED
+received block 00000887eca4775f9f4d
+SetBestChain: new best=00000887eca4775f9f4dd688ca1281d98c9e84bc4cfa583233bea28adb124267  height=91  trust=92  date=2014-6-18 09:21:26
+Stake checkpoint: 414dcb46
+ProcessBlock: ACCEPTED
+received block 000000d34872225aea1a
+SetBestChain: new best=000000d34872225aea1a4c7f4e4452157c2e3190a83bb691f9925c628d5a768c  height=92  trust=93  date=2014-6-18 09:21:29
+Stake checkpoint: 1843ec7a
+ProcessBlock: ACCEPTED
+received block 00000314bab28f1a9cca
+SetBestChain: new best=00000314bab28f1a9cca6a2542c5daae4789c0d36004779770b72cfc7b71d5e6  height=93  trust=94  date=2014-6-18 09:22:48
+Stake checkpoint: 7fc5aa0
+ProcessBlock: ACCEPTED
+received block 000009d474c1c56d6c7c
+SetBestChain: new best=000009d474c1c56d6c7c5f0848400ba567d0b6d66efb557551a28d3d99e000ed  height=94  trust=95  date=2014-6-18 09:23:14
+Stake checkpoint: aff38f24
+ProcessBlock: ACCEPTED
+received block 0000040b89901272ce6e
+SetBestChain: new best=0000040b89901272ce6ed91f4683256b5df46308e9d7cce0339f4e24ead28ef2  height=95  trust=96  date=2014-6-18 09:24:42
+Stake checkpoint: 12fdc03d
+ProcessBlock: ACCEPTED
+received block 000009ef45e4b8489267
+SetBestChain: new best=000009ef45e4b848926752c61a259a6673cbfeba636aefb38f39215cb0511008  height=96  trust=97  date=2014-6-18 09:25:46
+Stake checkpoint: 7c5a4859
+ProcessBlock: ACCEPTED
+received block 000002e7acd258b4067f
+SetBestChain: new best=000002e7acd258b4067f45fd994e70d6cd0ce43f6be11ebc7fbba6f105080fae  height=97  trust=98  date=2014-6-18 09:29:19
+Stake checkpoint: e2e64793
+ProcessBlock: ACCEPTED
+received block 00000adc37c89b34d416
+SetBestChain: new best=00000adc37c89b34d4166e3d145cdb6b381fc225090dccd8ec0c5d3cbb99773b  height=98  trust=99  date=2014-6-18 09:29:49
+Stake checkpoint: 83cd3f23
+ProcessBlock: ACCEPTED
+received block 00000caa40fceadea9f2
+SetBestChain: new best=00000caa40fceadea9f2f333097599da830b8d9d9ddc2f21f05f646fd82eb93a  height=99  trust=100  date=2014-6-18 09:33:13
+Stake checkpoint: 40701f15
+ProcessBlock: ACCEPTED
+received block 0000009eb3a94387c033
+SetBestChain: new best=0000009eb3a94387c03365a18a3a3177da9e636e527b3f5766a09f8268618b44  height=100  trust=101  date=2014-6-18 09:36:52
+Stake checkpoint: bec499b3
+ProcessBlock: ACCEPTED
+received block 00000c25d2466ec8d244
+SetBestChain: new best=00000c25d2466ec8d24469552b8a527fef5d0448a746c5fab138f86ac4fdca0b  height=101  trust=102  date=2014-6-18 09:38:56
+Stake checkpoint: 259f407b
+ProcessBlock: ACCEPTED
+received block 00000601307e87cfbcf8
+SetBestChain: new best=00000601307e87cfbcf8882f1c17f8ca10f4bfafe9ec7857b83ebe7126b92fdc  height=102  trust=103  date=2014-6-18 09:43:29
+Stake checkpoint: 69e2ca2e
+ProcessBlock: ACCEPTED
+received block 0000075d971b791dd9a1
+SetBestChain: new best=0000075d971b791dd9a115109f166559b365529da93f65b8472a7769b00df297  height=103  trust=104  date=2014-6-18 09:45:11
+Stake checkpoint: fc5b0ae
+ProcessBlock: ACCEPTED
+received block 000002de86ba4749132c
+SetBestChain: new best=000002de86ba4749132c1fb6520913681b54743d199529a54bb1e377a8a9849b  height=104  trust=105  date=2014-6-18 09:45:44
+Stake checkpoint: 51d260a
+ProcessBlock: ACCEPTED
+received block 00000e3a5d2e4f02816e
+SetBestChain: new best=00000e3a5d2e4f02816e104d9b186a3e8a97a830ac1aa4a6aacf77112e8368c1  height=105  trust=106  date=2014-6-18 09:45:47
+Stake checkpoint: a468254d
+ProcessBlock: ACCEPTED
+received block 00000100244abcff2671
+SetBestChain: new best=00000100244abcff2671928d37a19df7e101f3182bf7d7cf767e339cc224d00d  height=106  trust=107  date=2014-6-18 09:48:54
+Stake checkpoint: 7ef8b585
+ProcessBlock: ACCEPTED
+received block 00000731921749b0fcc0
+SetBestChain: new best=00000731921749b0fcc0b602ab6fd2fe6194fd9e512c38b17016059aef5c7a25  height=107  trust=108  date=2014-6-18 09:54:50
+Stake checkpoint: 71e0489a
+ProcessBlock: ACCEPTED
+received block 0000056efe153557a207
+SetBestChain: new best=0000056efe153557a2076a9190b59cae977e41575690e9465b88c00bc1313771  height=108  trust=109  date=2014-6-18 09:56:00
+Stake checkpoint: 62b5e100
+ProcessBlock: ACCEPTED
+received block 000002b72267fd74ba77
+SetBestChain: new best=000002b72267fd74ba77559c14397cb1f1274a46057c9c400975003c46489331  height=109  trust=110  date=2014-6-18 10:00:38
+Stake checkpoint: b0a2bbed
+ProcessBlock: ACCEPTED
+received block 00000d097d03ba6a4c72
+SetBestChain: new best=00000d097d03ba6a4c7206929afa27dcaf5f589bf11820cae0749aaf7e836e0a  height=110  trust=111  date=2014-6-18 10:02:56
+Stake checkpoint: a58a982e
+ProcessBlock: ACCEPTED
+received block 000006b7cb70246a892f
+SetBestChain: new best=000006b7cb70246a892f629f8d8d47de148e330037e502af51c755fb999a32f8  height=111  trust=112  date=2014-6-18 10:04:45
+Stake checkpoint: 96740631
+ProcessBlock: ACCEPTED
+received block 00000acd4463a4d56982
+SetBestChain: new best=00000acd4463a4d5698230e144676b3ab8852b71655e7f2b7ecc459bc9a9e335  height=112  trust=113  date=2014-6-18 10:05:08
+Stake checkpoint: 14da7b0a
+ProcessBlock: ACCEPTED
+received block 000007d45bb697d3bdbc
+SetBestChain: new best=000007d45bb697d3bdbc25f0773bf232cd04c5dd2ce5385057aaf14efcc07a49  height=113  trust=114  date=2014-6-18 10:06:21
+Stake checkpoint: 1afc305f
+ProcessBlock: ACCEPTED
+received block 000008bf0fa7a7d35fbd
+SetBestChain: new best=000008bf0fa7a7d35fbd122e7a2b3ebee5f2dc56fc86598b7d4c6f19edbf63e6  height=114  trust=115  date=2014-6-18 10:07:33
+Stake checkpoint: 1f957211
+ProcessBlock: ACCEPTED
+received block 00000ee7bc0f34e99971
+SetBestChain: new best=00000ee7bc0f34e999713a8bdda28adbf8b74bab2988f3d76a6a08f1a894f8cb  height=115  trust=116  date=2014-6-18 10:08:50
+Stake checkpoint: 7974879a
+ProcessBlock: ACCEPTED
+received block 00000908b938c7234f9b
+SetBestChain: new best=00000908b938c7234f9bf04537c35fa8fe8efcd4c091d58757a22317930c2c96  height=116  trust=117  date=2014-6-18 10:09:32
+Stake checkpoint: 3cc20360
+ProcessBlock: ACCEPTED
+received block 0000095f807b8670acc4
+SetBestChain: new best=0000095f807b8670acc467d05a263d335eeec21903470c7b2020e0de3736e48a  height=117  trust=118  date=2014-6-18 10:09:42
+Stake checkpoint: b1e557e3
+ProcessBlock: ACCEPTED
+received block 0000011f8b2af4a02b46
+SetBestChain: new best=0000011f8b2af4a02b46e9ebe223b2fa3b8518af6f0818d477f1800c1c694dcc  height=118  trust=119  date=2014-6-18 10:12:30
+Stake checkpoint: 2d17609
+ProcessBlock: ACCEPTED
+received block 00000fb67448976458c7
+SetBestChain: new best=00000fb67448976458c78d524b9aa889eae3a36e5ba79d33f118d89b9c1fe0ec  height=119  trust=120  date=2014-6-18 10:13:58
+Stake checkpoint: 55206c
+ProcessBlock: ACCEPTED
+received block 00000dff664661973049
+SetBestChain: new best=00000dff66466197304902401d79dd0e05bae2be7c10cb3df871a36cbc17f67c  height=120  trust=121  date=2014-6-18 10:20:35
+Stake checkpoint: 17ddd126
+ProcessBlock: ACCEPTED
+received block 00000d403477fc42b27b
+SetBestChain: new best=00000d403477fc42b27b73af2b7c2a305bd91845ab6b1e684f0c910844c59020  height=121  trust=122  date=2014-6-18 10:22:44
+Stake checkpoint: 2e03f1b
+ProcessBlock: ACCEPTED
+received block 00000fa828d785768f5a
+SetBestChain: new best=00000fa828d785768f5a8ecfa5c14e37b066635bb1e8490b2e1ace9060fb317a  height=122  trust=123  date=2014-6-18 10:23:19
+Stake checkpoint: 1e35d1a2
+ProcessBlock: ACCEPTED
+received block 00000068dce01c4ba6d4
+SetBestChain: new best=00000068dce01c4ba6d4840dc3ebf551ab38133856360958d2f9ff9f5016946b  height=123  trust=124  date=2014-6-18 10:25:20
+Stake checkpoint: eb71a3e0
+ProcessBlock: ACCEPTED
+received block 000000b46d36f388e62c
+SetBestChain: new best=000000b46d36f388e62c54cec62e1153ac879471fc6088c78cc730166bc75536  height=124  trust=125  date=2014-6-18 10:31:49
+Stake checkpoint: a63f3a9a
+ProcessBlock: ACCEPTED
+received block 00000f93167716982972
+SetBestChain: new best=00000f93167716982972ac5b14206742ffd9a1714e9b1ad7d825cf8cd9c96c41  height=125  trust=126  date=2014-6-18 10:31:53
+Stake checkpoint: 24619fa
+ProcessBlock: ACCEPTED
+received block 00000bbe01c96affcb16
+SetBestChain: new best=00000bbe01c96affcb168d371ad0c77979a74a7c1efecca101bf11f30a43194f  height=126  trust=127  date=2014-6-18 10:32:37
+Stake checkpoint: dc6ac165
+ProcessBlock: ACCEPTED
+received block 0000006e58ff9026d723
+SetBestChain: new best=0000006e58ff9026d723bd86fe89f857efb5794ce0193490d54ad0c8a728ce90  height=127  trust=128  date=2014-6-18 10:34:40
+Stake checkpoint: fa5dbc26
+ProcessBlock: ACCEPTED
+received block 000003cff14513b1efcd
+SetBestChain: new best=000003cff14513b1efcd697d05cb0d226c9a9c6ea0f5a21f1cb643557aa292fe  height=128  trust=129  date=2014-6-18 10:36:31
+Stake checkpoint: 9a753e65
+ProcessBlock: ACCEPTED
+received block 0000056b8ff68a0f5266
+connection timeout
+ERROR: GetMyExternalIP() : connection to 212.117.175.194:80 failed
+SetBestChain: new best=0000056b8ff68a0f52663565b13d2073ca77b18795e70abc30f46c8cececc125  height=129  trust=130  date=2014-6-18 10:37:38
+Stake checkpoint: 8654a614
+ProcessBlock: ACCEPTED
+received block 000001e4ff639d4268ed
+SetBestChain: new best=000001e4ff639d4268ed970a10caa19107e9a3d283fe267c8589b7224e973211  height=130  trust=131  date=2014-6-18 10:38:14
+Stake checkpoint: 36bed90d
+ProcessBlock: ACCEPTED
+received block 00000e9b86387ac49131
+SetBestChain: new best=00000e9b86387ac49131101156431e6020c9e295bed5adc91fc438a3956597d3  height=131  trust=132  date=2014-6-18 10:38:53
+Stake checkpoint: dfbfb645
+ProcessBlock: ACCEPTED
+received block 000009eac5c92440a7ea
+SetBestChain: new best=000009eac5c92440a7eae31b27d22262a6d6152971abcc1bbdab1262ec30dadb  height=132  trust=133  date=2014-6-18 10:40:32
+Stake checkpoint: 80099341
+ProcessBlock: ACCEPTED
+received block 0000039d9cf85f033882
+SetBestChain: new best=0000039d9cf85f0338825a52221def5afe11ba4c19adb8d0e56badba488752c0  height=133  trust=134  date=2014-6-18 10:42:00
+Stake checkpoint: 6a444e7a
+ProcessBlock: ACCEPTED
+received block 000006edf1d47a75bee8
+SetBestChain: new best=000006edf1d47a75bee8fd4dda13e586495e3803d019f198653a181a8a7de528  height=134  trust=135  date=2014-6-18 10:42:17
+Stake checkpoint: d8c34317
+ProcessBlock: ACCEPTED
+received block 0000082d72a10c0950e1
+SetBestChain: new best=0000082d72a10c0950e181bdcac3bf792fc4c41d2081760478fee3a3f8ae369e  height=135  trust=136  date=2014-6-18 10:46:42
+Stake checkpoint: 5f1cdbba
+ProcessBlock: ACCEPTED
+received block 00000b05ecff15a43a71
+SetBestChain: new best=00000b05ecff15a43a71c0ca67374cb0e9594354723f186ea54f0bb0de9fa38b  height=136  trust=137  date=2014-6-18 10:49:00
+Stake checkpoint: afc62166
+ProcessBlock: ACCEPTED
+received block 00000d68bbb6b4c00d28
+SetBestChain: new best=00000d68bbb6b4c00d289bc6aeed285450674f3555d1e5bee2f3de287b6e6006  height=137  trust=138  date=2014-6-18 10:49:53
+Stake checkpoint: 390d91b2
+ProcessBlock: ACCEPTED
+received block 000003c2ccc456338ef5
+SetBestChain: new best=000003c2ccc456338ef5e899bc45e4bf18451f872dee880f460461bf04a05e59  height=138  trust=139  date=2014-6-18 10:51:25
+Stake checkpoint: d014b42c
+ProcessBlock: ACCEPTED
+received block 0000091cb6a8790a58fa
+SetBestChain: new best=0000091cb6a8790a58fa2edd0c2f4bfcdda302b77a372dc08a44e0858469744c  height=139  trust=140  date=2014-6-18 10:53:26
+Stake checkpoint: 8839dfdc
+ProcessBlock: ACCEPTED
+received block 00000f6e78e4c2dc82d2
+SetBestChain: new best=00000f6e78e4c2dc82d2ca4d5f5cdb3c490c8d9f53bf9305c595a6739d54af29  height=140  trust=141  date=2014-6-18 10:55:20
+Stake checkpoint: 605fc7fa
+ProcessBlock: ACCEPTED
+received block 00000d8b927b96babb2e
+SetBestChain: new best=00000d8b927b96babb2e5d0f1fd6bada086e012f6ba98715212188cb0329c4c0  height=141  trust=142  date=2014-6-18 10:55:27
+Stake checkpoint: 9ca070cd
+ProcessBlock: ACCEPTED
+received block 00000bee7232261ae6dd
+SetBestChain: new best=00000bee7232261ae6dd245544a46c7f54170075155b93a19fb43f16729c0853  height=142  trust=143  date=2014-6-18 10:56:59
+Stake checkpoint: 544b7223
+ProcessBlock: ACCEPTED
+received block 0000013c6279fff1118e
+SetBestChain: new best=0000013c6279fff1118e0f8754ae823e5f8db7d5f7da504d191511c4bde82adf  height=143  trust=144  date=2014-6-18 10:57:52
+Stake checkpoint: 492685e2
+ProcessBlock: ACCEPTED
+received block 00000cf261d32eef23b1
+SetBestChain: new best=00000cf261d32eef23b1ab136c2c107cfc11b8661341f38f06da58876942926a  height=144  trust=145  date=2014-6-18 10:59:52
+Stake checkpoint: d6f44a62
+ProcessBlock: ACCEPTED
+received block 000008600b922afce03c
+SetBestChain: new best=000008600b922afce03c284f40939e7b765141fee4055d888f29092bff83bd8c  height=145  trust=146  date=2014-6-18 11:00:43
+Stake checkpoint: e289220
+ProcessBlock: ACCEPTED
+received block 00000af9dfd3d66c5371
+SetBestChain: new best=00000af9dfd3d66c537120a317351bad1191fac7e39f8521130f1c23b8f6ba0c  height=146  trust=147  date=2014-6-18 11:03:35
+Stake checkpoint: 639d3ad9
+ProcessBlock: ACCEPTED
+received block 00000e96d96bdb0bef88
+SetBestChain: new best=00000e96d96bdb0bef887ccb43e3018a6cc5cd5d400fd294f7224d371e165016  height=147  trust=148  date=2014-6-18 11:05:20
+Stake checkpoint: 664e07af
+ProcessBlock: ACCEPTED
+received block 0000052a058efeaf9abf
+SetBestChain: new best=0000052a058efeaf9abfd89f038c24a904a886452001ba260fa0918caf6aef3a  height=148  trust=149  date=2014-6-18 11:06:34
+Stake checkpoint: 442e9947
+ProcessBlock: ACCEPTED
+received block 00000fa32f7f4ee85c78
+SetBestChain: new best=00000fa32f7f4ee85c78375febbf1803829a7561322fb67bbc2fb437d9bee161  height=149  trust=150  date=2014-6-18 11:13:15
+Stake checkpoint: 361d83b0
+ProcessBlock: ACCEPTED
+received block 00000754686369bf2efb
+SetBestChain: new best=00000754686369bf2efb63be5125a38360ebf8ae9a1a2516c9ce0c387ea30d7e  height=150  trust=151  date=2014-6-18 11:15:01
+Stake checkpoint: ea9a603a
+ProcessBlock: ACCEPTED
+received block 00000be239c6e4bcc34b
+SetBestChain: new best=00000be239c6e4bcc34b46df0b9dc412f3c59b37d2c23c30ff906c8eb626b28a  height=151  trust=152  date=2014-6-18 11:15:46
+Stake checkpoint: 84408db0
+ProcessBlock: ACCEPTED
+received block 000001d2d4af9cc46d7a
+SetBestChain: new best=000001d2d4af9cc46d7a8d8bfdf83081926909cfb51dec4cdacc44045ac41263  height=152  trust=153  date=2014-6-18 11:20:29
+Stake checkpoint: ad7c8b7c
+ProcessBlock: ACCEPTED
+received block 0000019c4d0370977221
+SetBestChain: new best=0000019c4d03709772214f053cc1e1eeda5b88038f84b1302111bf734a226845  height=153  trust=154  date=2014-6-18 11:24:43
+Stake checkpoint: 94264a14
+ProcessBlock: ACCEPTED
+received block 000002a36df98218b321
+SetBestChain: new best=000002a36df98218b321332e2307717ceb2a6b67ed934f0ed8335a12fd15a9f8  height=154  trust=155  date=2014-6-18 11:27:14
+Stake checkpoint: f510c54d
+ProcessBlock: ACCEPTED
+received block 00000b2c48043b51d137
+SetBestChain: new best=00000b2c48043b51d137972aa3cc8de7037eca89541b9dfcd956ab3e7e5e7dcd  height=155  trust=156  date=2014-6-18 11:29:54
+Stake checkpoint: 8653ad27
+ProcessBlock: ACCEPTED
+received block 00000c7cff29ab27eec9
+SetBestChain: new best=00000c7cff29ab27eec9763a4c1169fb9d62befeb94c701d30dde9044262329a  height=156  trust=157  date=2014-6-18 11:35:54
+Stake checkpoint: 9dea203c
+ProcessBlock: ACCEPTED
+received block 00000d34a1b56f87ca13
+SetBestChain: new best=00000d34a1b56f87ca1300d2fc2814c8a720f078833f895f8b170b4a9b5c81c1  height=157  trust=158  date=2014-6-18 11:37:24
+Stake checkpoint: d643ce6c
+ProcessBlock: ACCEPTED
+received block 00000c92ccaad9ea108a
+SetBestChain: new best=00000c92ccaad9ea108a1f3a426a7de6cbf446b1f87cf10f5a69ebdd004e9309  height=158  trust=159  date=2014-6-18 11:38:47
+Stake checkpoint: 354bb65
+ProcessBlock: ACCEPTED
+received block 000009b28aecb24319f8
+SetBestChain: new best=000009b28aecb24319f89b045b67443ac38e3b266f75d46f58d9e2a76079ac73  height=159  trust=160  date=2014-6-18 11:43:32
+Stake checkpoint: 56178f0f
+ProcessBlock: ACCEPTED
+received block 00000061a584208c4160
+SetBestChain: new best=00000061a584208c41601a77a717d0fcbd223134d6584985ac977d766b32d933  height=160  trust=161  date=2014-6-18 11:46:05
+Stake checkpoint: 8a26e859
+ProcessBlock: ACCEPTED
+received block 0000039fbcd81385f848
+SetBestChain: new best=0000039fbcd81385f84827c5a3367f30b61810e42f238117fb7d0fb3b9fea77a  height=161  trust=162  date=2014-6-18 11:46:35
+Stake checkpoint: e19f4fe7
+ProcessBlock: ACCEPTED
+received block 00000800ae610043a714
+SetBestChain: new best=00000800ae610043a714057c6bc5f86a126035d9370374d466fa9ace5ac71c24  height=162  trust=163  date=2014-6-18 11:53:54
+Stake checkpoint: e5321f21
+ProcessBlock: ACCEPTED
+received block 00000bb1ed0a1e732589
+SetBestChain: new best=00000bb1ed0a1e7325895f0fefb9adb917765fb97bca9d265e3509b46f625630  height=163  trust=164  date=2014-6-18 11:54:03
+Stake checkpoint: e6c3053d
+ProcessBlock: ACCEPTED
+received block 00000738fabad926d069
+SetBestChain: new best=00000738fabad926d069e8026f982ba8551270496517818870a85ba5e4b67fb1  height=164  trust=165  date=2014-6-18 11:54:28
+Stake checkpoint: 628b6d28
+ProcessBlock: ACCEPTED
+received block 0000038a472252257d9e
+SetBestChain: new best=0000038a472252257d9ea470f1a9aed2b0f2f59f94ddc477685282409550cad9  height=165  trust=166  date=2014-6-18 11:55:36
+Stake checkpoint: bc7379c2
+ProcessBlock: ACCEPTED
+received block 00000b59b6ce07f0b888
+SetBestChain: new best=00000b59b6ce07f0b888f477cbd8393ed8ea6103219dd98fbc5a1fd63a50e2be  height=166  trust=167  date=2014-6-18 11:58:11
+Stake checkpoint: f47bb4e2
+ProcessBlock: ACCEPTED
+received block 0000029f8b1bcd2b3540
+SetBestChain: new best=0000029f8b1bcd2b354027866ef930ffdbd986afb904bf4b180d5bc0d6fee80d  height=167  trust=168  date=2014-6-18 11:58:19
+Stake checkpoint: ea020ac0
+ProcessBlock: ACCEPTED
+received block 0000085b64bd7abe048b
+SetBestChain: new best=0000085b64bd7abe048b74d672741c06de7d6ec20807e1283c05721188a87510  height=168  trust=169  date=2014-6-18 11:59:12
+Stake checkpoint: 569694ab
+ProcessBlock: ACCEPTED
+received block 00000573d00507334286
+SetBestChain: new best=00000573d005073342867ddcef2a2de7d0cbd6861de72a3ce99ce5bc52f05488  height=169  trust=170  date=2014-6-18 12:04:08
+Stake checkpoint: 66e63ee1
+ProcessBlock: ACCEPTED
+received block 0000020311e6fb2a26c7
+SetBestChain: new best=0000020311e6fb2a26c7f2684ad775adf6254dd4b49c9620c223a225d003a1a5  height=170  trust=171  date=2014-6-18 12:06:14
+Stake checkpoint: c13834fa
+ProcessBlock: ACCEPTED
+received block 000001649d3549b37395
+SetBestChain: new best=000001649d3549b37395a3c1af2a890df238c99863ccc93b78a240d6e6241634  height=171  trust=172  date=2014-6-18 12:06:50
+Stake checkpoint: 8981882c
+ProcessBlock: ACCEPTED
+received block 000005f009264fa279d8
+SetBestChain: new best=000005f009264fa279d8a3e17578077959f6d44f01a9439a84f37462ce0ab37f  height=172  trust=173  date=2014-6-18 12:08:18
+Stake checkpoint: faa13a73
+ProcessBlock: ACCEPTED
+received block 00000d098f803a6030ab
+SetBestChain: new best=00000d098f803a6030abd14624a2d37e96ef9a0567e09f3f6c26784ed4c90e52  height=173  trust=174  date=2014-6-18 12:11:27
+Stake checkpoint: eb884716
+ProcessBlock: ACCEPTED
+received block 00000363b4d5ff598158
+SetBestChain: new best=00000363b4d5ff598158e5014da2895be23f550974f6c86b6c6fc3772e9f886c  height=174  trust=175  date=2014-6-18 12:14:01
+Stake checkpoint: 3cbd5551
+ProcessBlock: ACCEPTED
+received block 00000b1ac670a3b9217f
+SetBestChain: new best=00000b1ac670a3b9217fe9857f401ecaee1910427afa3ecde70f6333ef7d6f70  height=175  trust=176  date=2014-6-18 12:15:22
+Stake checkpoint: f88a5421
+ProcessBlock: ACCEPTED
+received block 0000088fb8956e644c62
+SetBestChain: new best=0000088fb8956e644c6239bc31c2e4e3b9263de5ad79db536bb1b07096f52714  height=176  trust=177  date=2014-6-18 12:17:47
+Stake checkpoint: 89abff76
+ProcessBlock: ACCEPTED
+received block 00000a36a2fb2df25470
+SetBestChain: new best=00000a36a2fb2df25470f1dd8580160f1466bd7a8c99ee3889f216b40da75162  height=177  trust=178  date=2014-6-18 12:18:49
+Stake checkpoint: e3429f3
+ProcessBlock: ACCEPTED
+received block 000009b489eb103f9184
+SetBestChain: new best=000009b489eb103f91843aa0b5e51876be0bd7aaddee83aa72bd9a4199729d53  height=178  trust=179  date=2014-6-18 12:19:44
+Stake checkpoint: 478329
+ProcessBlock: ACCEPTED
+received block 00000841f5395d650b27
+SetBestChain: new best=00000841f5395d650b27d475b5f11262fe585ced989cbdb5123c86eebd8fd7b7  height=179  trust=180  date=2014-6-18 12:21:42
+Stake checkpoint: 6de2a002
+ProcessBlock: ACCEPTED
+received block 00000f36856f210f8186
+SetBestChain: new best=00000f36856f210f8186b9bae60817446a5df7bb5c68a4ab02f93d8c6af6223c  height=180  trust=181  date=2014-6-18 12:23:56
+Stake checkpoint: 7bcb62fe
+ProcessBlock: ACCEPTED
+received block 000004bf3fb955144398
+SetBestChain: new best=000004bf3fb955144398b6f195036d444ed9d9c1a5821424be036fd788d53f22  height=181  trust=182  date=2014-6-18 12:28:19
+Stake checkpoint: 7c69230d
+ProcessBlock: ACCEPTED
+received block 00000cfc901b452caeb6
+SetBestChain: new best=00000cfc901b452caeb6bf2c3415f020bc63c5fd2db18ab2eb3c2169d819b0eb  height=182  trust=183  date=2014-6-18 12:29:25
+Stake checkpoint: 2ed2ca5d
+ProcessBlock: ACCEPTED
+received block 0000021a29e09e94e3d5
+SetBestChain: new best=0000021a29e09e94e3d5f45f2871e35fa0afc9f03fef9bd4cbb3b3e9f5f5872f  height=183  trust=184  date=2014-6-18 12:29:30
+Stake checkpoint: f8aac994
+ProcessBlock: ACCEPTED
+received block 00000bdda143b0e39623
+SetBestChain: new best=00000bdda143b0e39623e1bc30d12b505f9c53b3fde710511bcb2c96cb67347c  height=184  trust=185  date=2014-6-18 12:30:07
+Stake checkpoint: 386e8314
+ProcessBlock: ACCEPTED
+received block 0000039d6b1e2b313eb3
+SetBestChain: new best=0000039d6b1e2b313eb38477ed61207415cd1778f744407602e412cb235066c8  height=185  trust=186  date=2014-6-18 12:30:21
+Stake checkpoint: 6a147c12
+ProcessBlock: ACCEPTED
+received block 000003262767098ae9fd
+SetBestChain: new best=000003262767098ae9fdea1ce6e21cc920733ad89d3d77f2f8fa700be11ef263  height=186  trust=187  date=2014-6-18 12:32:46
+Stake checkpoint: bcbeda43
+ProcessBlock: ACCEPTED
+received block 0000021ff9614b38d772
+SetBestChain: new best=0000021ff9614b38d7726eb2081a2d8f770a08ada984770c52aa13a992f2c6a8  height=187  trust=188  date=2014-6-18 12:33:02
+Stake checkpoint: e66a9754
+ProcessBlock: ACCEPTED
+received block 00000333287f2c0e4bbf
+SetBestChain: new best=00000333287f2c0e4bbf6b3b8d32f3e10fb53447f497ed38f0e7b929a6272590  height=188  trust=189  date=2014-6-18 12:34:49
+Stake checkpoint: 4867bbd4
+ProcessBlock: ACCEPTED
+received block 0000047facb20b1f73b5
+SetBestChain: new best=0000047facb20b1f73b5f2b81afb6c1ca35dc487666f1f876d986ed5bc6fff50  height=189  trust=190  date=2014-6-18 12:35:13
+Stake checkpoint: 8edd3450
+ProcessBlock: ACCEPTED
+received block 00000780775d532beebb
+SetBestChain: new best=00000780775d532beebbce6cd2aadf6e546bc409e832c2357ede60b863bb413b  height=190  trust=191  date=2014-6-18 12:35:46
+Stake checkpoint: 7d1fc116
+ProcessBlock: ACCEPTED
+received block 00000c5dc378b634520a
+SetBestChain: new best=00000c5dc378b634520a74c77887f0398f89e0f43d7c3dbfe9d7efa1d4d36cf8  height=191  trust=192  date=2014-6-18 12:37:34
+Stake checkpoint: c0a20802
+ProcessBlock: ACCEPTED
+received block 0000031875fa19e1a938
+SetBestChain: new best=0000031875fa19e1a9387929e76d0a9a2ab98b234940597ca3dfe303a67fbdbf  height=192  trust=193  date=2014-6-18 12:37:54
+Stake checkpoint: a895cbbc
+ProcessBlock: ACCEPTED
+received block 000007115e259414c641
+SetBestChain: new best=000007115e259414c6411b20b1c79ad43a71027d06e77f1705cdfed30e6484ce  height=193  trust=194  date=2014-6-18 12:39:50
+Stake checkpoint: d7a503a8
+ProcessBlock: ACCEPTED
+received block 00000c60f7d4ce989614
+SetBestChain: new best=00000c60f7d4ce98961435c37dfbeabd40470f55d81305a63a89c22a8a2edbb0  height=194  trust=195  date=2014-6-18 12:43:14
+Stake checkpoint: fce83c57
+ProcessBlock: ACCEPTED
+received block 000005ddfa89b1e249ab
+SetBestChain: new best=000005ddfa89b1e249ab417f06a4b8929e6488a83757a1eb2884eed91107e363  height=195  trust=196  date=2014-6-18 12:44:41
+Stake checkpoint: 45045bbb
+ProcessBlock: ACCEPTED
+getblocks 11 to 00000000000000000000 limit 500
+Flushing wallet.dat
+Flushed wallet.dat 312ms
+getblocks -1 to 00000000000000000000 limit 500
+received block 00000431b8cca9e54fcf
+SetBestChain: new best=00000431b8cca9e54fcfecfaa3edc652a10e35d13b35aa2fb09975b94674e5f7  height=196  trust=197  date=2014-6-18 12:48:06
+Stake checkpoint: 7519c031
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 78ms
+Added 3 addresses from 127.0.0.1: 0 tried, 3 new
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+Flushed 3 addresses to peers.dat  15ms
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+trying connection 112.124.121.82:15566 lastseen=310.7hrs
+connection timeout
+received block 00000cafd580d1f639ac
+SetBestChain: new best=00000cafd580d1f639ac5a1bab95f17eccc7755d046d2e95047ed001d7e471b7  height=197  trust=198  date=2014-6-18 12:50:25
+Stake checkpoint: 2809c70a
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 94ms
+Flushed 3 addresses to peers.dat  15ms
+received block 000006264a814d87f8b9
+SetBestChain: new best=000006264a814d87f8b96d79165b84df815df98ab45b25fa8555f50a1fd3d587  height=198  trust=199  date=2014-6-18 12:52:07
+Stake checkpoint: 403ab35f
+ProcessBlock: ACCEPTED
+getblocks -1 to 00000000000000000000 limit 500
+Flushing wallet.dat
+Flushed wallet.dat 94ms
+Flushed 3 addresses to peers.dat  32ms
+received block 00000529c4a5a1569d72
+SetBestChain: new best=00000529c4a5a1569d7225f54572565da1262de3347fda3c140a970c884d22b5  height=199  trust=200  date=2014-6-18 12:54:07
+Stake checkpoint: 5a5657ab
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 78ms
+Flushed 3 addresses to peers.dat  31ms
+received block 0000050326e35cb0c09e
+SetBestChain: new best=0000050326e35cb0c09efc1a6b3e6c550a7c111318e5eb922ef338320e4b3938  height=200  trust=201  date=2014-6-18 12:55:44
+Stake checkpoint: b11f4c77
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 94ms
+Flushed 3 addresses to peers.dat  31ms
+received block 0000092f4584b9b8cf63
+SetBestChain: new best=0000092f4584b9b8cf637b2fb4ac0d2969b2f17216383269ca1364681b6eac73  height=201  trust=202  date=2014-6-18 12:56:12
+Stake checkpoint: 3f7ad1d0
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 94ms
+received block 0000014dc5efc45c7604
+SetBestChain: new best=0000014dc5efc45c76041d8191c331f64935035c21767c00938a8bdeba6725c0  height=202  trust=203  date=2014-6-18 12:56:44
+Stake checkpoint: 37000629
+ProcessBlock: ACCEPTED
+Flushing wallet.dat
+Flushed wallet.dat 94ms
+Flushed 3 addresses to peers.dat  16ms
+RandAddSeed() 131788 bytes
+received block 000003e91fcf51e60190
+SetBestChain: new best=000003e91fcf51e60190c1e3a6cc9695d4d03fc46cf55e5735aa73162c794d99  height=203  trust=204  date=2014-6-18 12:59:04
+Stake checkpoint: 2ad11aef
+ProcessBlock: ACCEPTED
+Flushed 3 addresses to peers.dat  31ms
+Flushing wallet.dat
+Flushed wallet.dat 109ms
+received block 0000054229455879c9e3
+SetBestChain: new best=0000054229455879c9e3c13cb8078fa6189bdddb9a92d811cb3933e28dfd0257  height=204  trust=205  date=2014-6-18 13:00:23
+Stake checkpoint: 58536a2e
+ProcessBlock: ACCEPTED
+getblocks 203 to 0000054229455879c9e3 limit 500
+  getblocks stopping at 204 0000054229455879c9e3
+Flush(false)
+blkindex.dat refcount=0
+ipcThread exited
+blkindex.dat checkpoint
+ThreadSocketHandler exited
+ThreadMessageHandler exited
+blkindex.dat closed
+wallet.dat refcount=0
+wallet.dat checkpoint
+wallet.dat detach
+ThreadOpenConnections exited
+wallet.dat closed
+DBFlush(false) ended             203ms
+StopNode()
+UPNP_DeletePortMapping() returned : 0
+ThreadMapPort exited
+ThreadStakeMinter still running
+Flushed 3 addresses to peers.dat  15ms
+Flush(true)
+DBFlush(true) ended               0ms
+XQCoin exited
+
