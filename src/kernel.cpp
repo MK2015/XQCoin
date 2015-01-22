@@ -21,41 +21,15 @@ unsigned int nModifierInterval = MODIFIER_INTERVAL;
 static std::map<int, unsigned int> mapStakeModifierCheckpoints =
     boost::assign::map_list_of
     (0, 0x0e00670bu)
-    // (1, 0x5189c78au)
-    // (2, 0x38d937d2u)
-    // (4, 0x49b5818cu)
-    // (10, 0x4db992eau)
-    // (50, 0x8e867039u)
-    // (100, 0xbec499b3u)
-    // (200, 0xb11f4c77u)
-    // (1024, 0x4a803e0fu)
-    // (2048, 0x58c8f9f9u)
-    // (4096, 0x0d9dbd80u)
-    // (8192, 0xf1f98147u)
-	// (16384, 0xab02f159u)
-	// (30241, 0xa18f5a6cu)
-	// (30741, 0x79da72fbu)
-    // (32000, 0x653a6662u)
-    // (59000, 0xfe99b018u)
-    // (68000, 0xd7c64a38u)
-    // (95000, 0xd94658461u)
-    // (128000, 0xce4182edu)
-    // (152622, 0x95fdf2fdu)
-    // (158000, 0x25d6ef52u)
-    // (176666, 0xb1658288u)
+    (10, 0xaaaf8ff0u)
+(1000, 0x25251aefu)
+(5000, 0x257d5a44u)
+(10000, 0xab059cd5u)
+(20000, 0xd411daf6u)
+(30000, 0x95c6d4e2u)
+    
 	;
-// ====== 95000 ======
-// 8bcdaffe9ff7dd2064ca92a8172b84c2330a9c111b14943e0051512059d73619
-// "modifierchecksum" : "94658461",
-// ====== 128000 ======
-// 7f1bc2a0d8d69b5a8948ecf1b6e75c5d3df873314e559a97cc58c1401edae504
-// "modifierchecksum" : "ce4182ed",
-// ====== 158000 ======
-// 728262900167858e92c68999580b671210bfac124a53457a33bd592fcb75fde2
-// "modifierchecksum" : "25d6ef52",
-// ====== 176666 ======
-// ae5cf2e839b9cbfff38822b0ac383aec4a7ad2fc5813fb0f4a10dc34628c75b9
-// "modifierchecksum" : "b1658288",
+ 
 // Get the last stake modifier and its generation time from a given block
 static bool GetLastStakeModifier(const CBlockIndex* pindex, uint64& nStakeModifier, int64& nModifierTime)
 {
